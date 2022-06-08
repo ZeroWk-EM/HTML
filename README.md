@@ -1,3 +1,3 @@
 # HTML
 
-Exercises in WEB-FRONTENDs
+Exercises in WEB-FRONTEND
