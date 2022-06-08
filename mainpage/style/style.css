@@ -1,0 +1,27 @@
+html,
+body {
+    margin: 0 0;
+}
+
+
+/*Per settare la modalita in-line block*/
+
+.d_inline {
+    display: inline-block;
+}
+
+.navbar {
+    background-color: rgb(45, 235, 149);
+}
+
+.navbar_logo {
+    width: auto;
+}
+
+.navbar_link ul {
+    vertical-align: middle;
+}
+
+.navbar_link ul li {
+    display: inline-block;
+}
