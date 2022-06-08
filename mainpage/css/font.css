@@ -1,0 +1,22 @@
+@font-face {
+    font-family: organo;
+    src: url(../asset/font/organo.ttf);
+}
+
+
+/*FONT DI BASE*/
+
+@font-face {
+    font-family: nunito;
+    src: url(../asset/font/Nunito-Regular.ttf);
+}
+
+@font-face {
+    font-family: nunito_bold;
+    src: url(../asset/font/Nunito-Bold.ttf);
+}
+
+@font-face {
+    font-family: nunito_light;
+    src: url(../asset/font/Nunito-Light.ttf);
+}
