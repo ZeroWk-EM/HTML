@@ -1,0 +1,28 @@
+.labelField {
+    display: inline-block;
+    width: 200px;
+    height: 25px;
+}
+
+.inputField {
+    display: inline-block;
+}
+
+.licenze label {
+    display: inline-block;
+    /*Per creare lo spazio tra il testo di accattazione e il bottone Invio*/
+    height: 30px;
+}
+
+.submitBtn {
+    height: 20px;
+}
+
+h1,
+h4 {
+    text-align: center;
+}
+
+.selected {
+    background-color: yellow;
+}
