@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Form</title>
+</head>
+
+<body>
+    <form action="#" method="get">
+        <table cellspacing="10">
+            <tr>
+                <td>Nome</td>
+                <td>
+                    <input type="text" id="name" name="userName" placeholder="Segnaposto" />
+                </td>
+            </tr>
+            <tr>
+                <td>Cognome</td>
+                <td>
+                    <input type="text" id="sname" name="userSurname" placeholder="Segnaposto" />
+                </td>
+            </tr>
+            <tr>
+                <td>Data di nascita</td>
+                <td>
+                    <input type="date" id="bday" name="userBirth" placeholder="Segnaposto" />
+                </td>
+            </tr>
+            <tr>
+                <td>Titolo di studio</td>
+                <td>
+                    <select id="stitle" name="Usertitle">
+                        <option value="diplom">Diploma</option>
+                        <option value="degree">Laurea</option>
+                        <option value="certificate">Attetstato</option>
+                        <option value="lowschool">Terza media</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td>
+                    <input type="email" id="euser" name="userEmail" placeholder="Segnaposto" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" id="upass" name="userPassword" placeholder="Segnaposto" required />
+                </td>
+            </tr>
+            <tr>
+                <td>Curriculum</td>
+                <td>
+                    <input type="url" id="urlcv" name="userCV" placeholder="url" />
+                </td>
+            </tr>
+            <tr>
+                <br />
+                <td>
+                    <input type="checkbox" id="term" name="term1" value="accepted" required /><label for="term1">Autorizzazione trattamento dati personali</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Invio" />
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
