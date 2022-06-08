@@ -1,0 +1,63 @@
+/*START GLOBAL CSS*/
+
+html {
+    background-color: goldenrod;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.d_inline {
+    display: inline-block;
+}
+
+.d_color {
+    background-color: #121212;
+    color: white;
+}
+
+.no_list ul li {
+    list-style-type: none;
+}
+
+h1,
+h3 {
+    text-align: center;
+}
+
+a:link {
+    color: gold;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: red;
+}
+
+
+/*FINISH GLOBAL CSS*/
+
+.navbar_logo {
+    vertical-align: middle;
+}
+
+.menu_link ul {
+    text-align: center;
+}
+
+.social li {
+    display: inline-block;
+}
+
+.navbar_search-bar input:focus {
+    color: white;
+    background-color: orangered;
+}
