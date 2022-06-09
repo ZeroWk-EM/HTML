@@ -30,6 +30,9 @@ hr {
     padding-top: 100px;
 }
 
+
+/*PER METTERE LE COSE INLINE*/
+
 .d_inline {
     display: inline-block;
 }
@@ -206,6 +209,24 @@ hr {
     color: white;
 }
 
+
+/*FOOTER*/
+
+.footer_section {
+    margin-right: -10px;
+    margin-left: 1px;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(0, 93, 139);
+    color: white;
+}
+
+.footer_section p {
+    text-align: center;
+    font-weight: bold;
+}
+
 .footer {
     display: inline-block;
 }
@@ -237,19 +258,4 @@ hr {
     margin-left: 5px;
     text-decoration: none;
     color: white
-}
-
-.footer_section {
-    margin-right: -10px;
-    margin-left: 1px;
-    margin-top: 20px;
-    padding: 5px;
-    border-radius: 10px;
-    background-color: rgb(0, 93, 139);
-    color: white;
-}
-
-.footer_section p {
-    text-align: center;
-    font-weight: bold;
 }
