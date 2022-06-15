@@ -232,11 +232,11 @@ hr {
 }
 
 .footer_s1 {
-    width: 150px;
+    width: 33%;
 }
 
 .footer_s2 {
-    width: 700px;
+    width: 33%;
     text-align: center;
 }
 
@@ -246,7 +246,7 @@ hr {
 }
 
 .footer_s3 {
-    width: 300px;
+    width: 33%;
 }
 
 .footer_s3 img {
