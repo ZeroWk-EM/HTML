@@ -208,7 +208,7 @@ hr {
 
 /*FOOTER*/
 
-.footer_section {
+.footer {
     margin-right: -10px;
     margin-left: 1px;
     margin-top: 20px;
@@ -218,7 +218,7 @@ hr {
     color: white;
 }
 
-.footer_section p {
+.footer p {
     text-align: center;
     font-weight: bold;
 }
@@ -243,7 +243,7 @@ hr {
 
 .footer_social {
     width: 16.5%;
-    margin-left: 16.5%;
+    margin-left: 8.2%;
 }
 
 .footer_social ul {
