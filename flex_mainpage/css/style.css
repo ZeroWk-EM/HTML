@@ -10,7 +10,7 @@
     src: url(../assets/font/fredoka.ttf);
 }
 
-input[type=email] {
+input[type="email"] {
     text-align: center;
     border: none;
     width: 200px;
@@ -78,7 +78,7 @@ hr {
 
 .navbar_link ul li a {
     text-decoration: none;
-    color: #E6EED6;
+    color: white;
 }
 
 
@@ -99,6 +99,7 @@ hr {
     flex-direction: column;
     width: 100%;
     gap: 20px;
+    margin: -3px;
 }
 
 .sub_section {
@@ -127,7 +128,6 @@ hr {
 
 .sub_section-text p {
     padding: 0px 40px;
-    ;
 }
 
 .sub_section-text h3 {
@@ -167,7 +167,7 @@ hr {
 }
 
 .newsletter_form a {
-    color: black
+    color: black;
 }
 
 .newsletter_usercondition a {
