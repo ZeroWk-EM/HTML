@@ -21,9 +21,13 @@ hr {
     color: white;
 }
 
-.main_container {
+.container {
     width: 1200px;
     margin: 0 auto;
+}
+
+.sen_container {
+    padding-top: 100px;
 }
 
 
