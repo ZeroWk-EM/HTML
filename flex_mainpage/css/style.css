@@ -3,6 +3,11 @@
     src: url(../assets/font/nunito.ttf);
 }
 
+@font-face {
+    font-family: fredoka;
+    src: url(../assets/font/fredoka.ttf);
+}
+
 html {
     font-family: nunito;
 }
