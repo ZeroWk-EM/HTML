@@ -223,33 +223,39 @@ hr {
     font-weight: bold;
 }
 
-.footer {
-    display: inline-block;
-}
-
-.footer_s1 {
+.footer_logo {
     width: 33%;
 }
 
-.footer_s2 {
+.footer_link {
     width: 33%;
     text-align: center;
 }
 
-.footer_s2 a {
+.footer_link ul {
+    padding-left: 0;
+}
+
+.footer_link a {
     color: white;
     text-decoration: none;
 }
 
-.footer_s3 {
-    width: 33%;
+.footer_social {
+    width: 16.5%;
+    margin-left: 16.5%;
 }
 
-.footer_s3 img {
+.footer_social ul {
+    padding-left: 0px;
+}
+
+.footer_social img {
     vertical-align: middle;
+    text-align: center;
 }
 
-.footer_s3 a {
+.footer_social a {
     vertical-align: middle;
     margin-left: 5px;
     text-decoration: none;
