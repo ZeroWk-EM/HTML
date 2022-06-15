@@ -1,0 +1,39 @@
+@font-face {
+    font-family: nunito;
+    src: url(../assets/font/nunito.ttf);
+}
+
+html {
+    font-family: nunito;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a72608;
+    width: 1200px;
+    padding: 10px;
+    position: fixed;
+}
+
+.navbar_link {
+    display: flex;
+}
+
+.navbar_link ul {
+    display: flex;
+    padding-left: 0px;
+    list-style: none;
+    gap: 10px
+}
+
+.navbar_link ul li a {
+    text-decoration: none;
+    color: white;
+}
