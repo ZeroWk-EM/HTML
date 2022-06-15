@@ -10,11 +10,26 @@
     src: url(../assets/font/fredoka.ttf);
 }
 
+input[type=email] {
+    text-align: center;
+    border: none;
+    width: 200px;
+    height: 15px;
+    font-size: 15px;
+    border-bottom: 2px solid white;
+    background-color: #a72608;
+    color: white;
+}
+
 
 /*========= CSS GLOBALE ==========*/
 
 html {
     font-family: nunito;
+}
+
+hr {
+    width: 80%;
 }
 
 .container {
@@ -46,7 +61,6 @@ html {
 }
 
 .navbar_logo img {
-    border: 1px solid black;
     border-radius: 50%;
 }
 
@@ -64,7 +78,7 @@ html {
 
 .navbar_link ul li a {
     text-decoration: none;
-    color: white;
+    color: #E6EED6;
 }
 
 
@@ -83,14 +97,101 @@ html {
     text-align: center;
 }
 
+
+/*========= NEWSLETTER ==========*/
+
 .newsletter {
-    background-color: teal;
+    display: flex;
+    color: white;
     border-radius: 10px;
+    background-color: #a72608;
+}
+
+.newsletter_form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 15px;
+    width: 50%;
     text-align: center;
 }
 
-.footer {
-    background-color: red;
+.newsletter_form h3 {
+    margin: 0px;
+}
+
+.newsletter_form a {
+    color: black
+}
+
+.newsletter_usercondition a {
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 5px 20px;
+    border-radius: 5px;
+}
+
+.newsletter_photo {
+    width: 50%;
+    background-image: url(../assets/img/banner.jpg);
+    opacity: 0.8;
+    background-size: cover;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+/*========= FOOTER ==========*/
+
+.footer_section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: #a72508;
+    text-align: center;
+}
+
+.footer_logo {
+    width: 33.3%;
+}
+
+.footer_link {
+    width: 33.3%;
+}
+
+.footer_link ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer_social {
+    width: 33.3%;
+    color: white;
+}
+
+.footer_copyright {
+    color: white;
     border-radius: 10px;
     text-align: center;
+    width: 100%;
+    background-color: #a72608;
+}
+
+.footer_section ul {
+    padding-left: 0px;
+}
+
+.footer_section ul li {
+    list-style-type: none;
+}
+
+.social_link {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
