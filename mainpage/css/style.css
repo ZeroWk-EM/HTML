@@ -121,7 +121,7 @@ hr {
 
 /*SECTION 01 - PROJECT*/
 
-.section_project {
+.section_space {
     margin-bottom: 50px;
 }
 
@@ -148,10 +148,6 @@ hr {
 
 
 /*SECTION 02 - TEAM */
-
-.section_team {
-    margin-bottom: 50px;
-}
 
 .section_team img {
     border: 5px #176c97 solid;
