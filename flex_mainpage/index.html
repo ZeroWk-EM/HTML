@@ -12,27 +12,30 @@
 </head>
 
 <body>
-    <div class="container">
-        <div class="navbar_container">
-            <div class="navbar_logo">
+    <div class="flex container">
+        <!-- NAV BAR -->
+        <div class="flex navbar_container b_round bg_color">
+            <div class="navbar_logo ob_space-navbar">
                 <img src="assets/img/logo/logo.svg" alt="logo" width="50px">
             </div>
-            <div class="navbar_link">
-                <ul>
+            <div class="flex navbar_link ob_space-navbar">
+                <ul class="flex navbar_link-list clear_links">
                     <li>
-                        <a href="#">Chi siamo</a>
+                        <a href="#ph1">Chi siamo</a>
                     </li>
                     <li>
-                        <a href="#">Usa il comparatore</a>
+                        <a href="#ph2">Usa il comparatore</a>
                     </li>
                     <li>
-                        <a href="#">Richiedi un preventivo</a>
+                        <a href="#ph3">Richiedi un preventivo</a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="photo">
-            <div class="overlay">
+
+        <!-- JUMBOTRON CON IMMAGINE -->
+        <div class="jumbotron_container b_round">
+            <div class="flex overlay center_text b_round">
                 <div class="overlay-text">
                     <h2>WK Insurance</h2>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi temporibus doloremque aliquam voluptatum minima, dolorum voluptate atque nam, numquam tempore possimus totam saepe, reprehenderit voluptates facere. Enim facere quia ipsum?</p>
@@ -40,47 +43,47 @@
             </div>
         </div>
 
-        <div class="section">
-            <div class="sub_section">
+        <div class="flex section_container">
+            <div class="flex sub_section b_round">
                 <div class="sub_section-img">
-                    <img src="assets/img/section/chisiamo.png" alt="">
+                    <img class="b_round" src="assets/img/section/chisiamo.png" alt="whois">
                 </div>
-                <div class="sub_section-text">
-                    <div class="paragraph">
+                <div class="flex sub_section-text center_text">
+                    <div id="ph1" class="paragraph">
                         <h3>Chi siamo</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nam aliquid illo id cupiditate perferendis quis tempora accusantium nemo enim esse vel ducimus laborum. Natus laudantium fuga saepe vitae reiciendis.</p>
-                        <a class="btn_section" href="#">Buttone</a>
+                        <a class="btn_section b_round bg_color" href="#">Buttone</a>
                     </div>
                 </div>
             </div>
-            <div class="sub_section reverse">
+            <div class="flex sub_section b_round reverse">
                 <div class="sub_section-img">
-                    <img src="assets/img/section/comparatore.png" alt="">
+                    <img class="b_round" src="assets/img/section/comparatore.png" alt="compare">
                 </div>
-                <div class="sub_section-text">
-                    <div class="paragraph">
+                <div class="flex sub_section-text center_text">
+                    <div id="ph2" class="paragraph">
                         <h3>Usa il comparatore</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nam aliquid illo id cupiditate perferendis quis tempora accusantium nemo enim esse vel ducimus laborum. Natus laudantium fuga saepe vitae reiciendis.</p>
-                        <a class="btn_section" href="#">Buttone</a>
+                        <a class="btn_section b_round bg_color" href="#">Buttone</a>
                     </div>
                 </div>
             </div>
-            <div class="sub_section">
+            <div class="flex sub_section b_round">
                 <div class="sub_section-img">
-                    <img src="assets/img/section/preventivo.png" alt="">
+                    <img class="b_round" src="assets/img/section/preventivo.png" alt="savemoney">
                 </div>
-                <div class="sub_section-text">
-                    <div class="paragraph">
+                <div class="flex sub_section-text center_text">
+                    <div id="ph3" class="paragraph">
                         <h3>Richiedi un preventivo</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, nam aliquid illo id cupiditate perferendis quis tempora accusantium nemo enim esse vel ducimus laborum. Natus laudantium fuga saepe vitae reiciendis.</p>
-                        <a class="btn_section" href="#">Buttone</a>
+                        <a class="btn_section b_round bg_color" href="#">Buttone</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="newsletter">
-            <div class="newsletter_form">
+        <div class="flex newsletter_container b_round bg_color">
+            <div class="flex newsletter_form">
                 <h3>Iscriviti alla newletter</h3>
                 <form action="#" method="get">
                     <input type="email" name="email" id="userEmail" placeholder="Inserisci la tua email" required>
@@ -96,32 +99,32 @@
             </div>
         </div>
 
-        <div class="footer_section">
+        <div class="flex footer_container center_text bg_color b_round">
             <div class="footer_logo">
-                <img src="../flex_mainpage/assets/img/logo/logo.svg" alt="" width="50px">
+                <img src="../flex_mainpage/assets/img/logo/logo.svg" alt="insurance_logo" width="50px">
             </div>
-            <div class="footer_link">
+            <div class="footer_link clear_links">
                 <ul>
                     <li>
-                        <a href="">Chi siamo</a>
+                        <a href="#ph1">Chi siamo</a>
                     </li>
                     <li>
-                        <a href="">Usa il comparatore</a>
+                        <a href="#ph2">Usa il comparatore</a>
                     </li>
                     <li>
-                        <a href="">Richiedi un preventivo</a>
+                        <a href="#ph3">Richiedi un preventivo</a>
                     </li>
                 </ul>
             </div>
             <div class="footer_social">
                 <p>Social</p>
-                <div class="social_link">
-                    <img src="../mainpage/asset/img/social/facebook.svg" alt="">
-                    <img src="../mainpage/asset/img/social/instagram.svg" alt="">
-                    <img src="../mainpage/asset/img/social/linkedin.svg" alt="">
+                <div class="flex social_link">
+                    <a href="https://www.facebook.com"><img src="../mainpage/asset/img/social/facebook.svg" alt="facebook_social"></a>
+                    <a href="https://www.instagram.com"><img src="../mainpage/asset/img/social/instagram.svg" alt="instagram_social"></a>
+                    <a href="https://www.linkedin.com"><img src="../mainpage/asset/img/social/linkedin.svg" alt="linkedin_social"></a>
                 </div>
             </div>
-            <div class="footer_copyright">
+            <div class="footer_copyright bg_color">
                 <hr>
                 <p>Copyright 2022 &copy; Emanuele Moncada</p>
             </div>

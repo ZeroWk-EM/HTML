@@ -10,6 +10,17 @@
     src: url(../assets/font/fredoka.ttf);
 }
 
+
+/*========= CSS GLOBALE ==========*/
+
+html {
+    font-family: nunito;
+}
+
+hr {
+    width: 80%;
+}
+
 input[type="email"] {
     text-align: center;
     border: none;
@@ -22,18 +33,54 @@ input[type="email"] {
 }
 
 
-/*========= CSS GLOBALE ==========*/
+/*========= PROPRIETA RIDONDANTI ==========*/
 
-html {
-    font-family: nunito;
+
+/* RENDE I BORDI ROTONDI */
+
+.b_round {
+    border-radius: 10px;
 }
 
-hr {
-    width: 80%;
+
+/* IMPOSTA LA PROPRIETA FLEX */
+
+.flex {
+    display: flex;
 }
+
+
+/* CENTRA IL TESTO IN UN DIV FLEX */
+
+.center_text {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* ASSEGNA SPAZI FISSA AGLI OGGETTI DELLA NAVABAR */
+
+.ob_space-navbar {
+    padding: 0px 20px;
+}
+
+
+/* PERSONALIZZA I LINK */
+
+.clear_links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.bg_color {
+    background-color: #a72608;
+}
+
+
+/*========= MAIN CONTAINER ==========*/
 
 .container {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     gap: 25px 0px;
@@ -47,58 +94,28 @@ hr {
 .navbar_container {
     z-index: 1;
     position: fixed;
-    display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #a72608;
-    border-radius: 10px;
     width: 1200px;
     padding: 10px 0;
 }
 
-.navbar_logo {
-    padding-left: 10px;
-}
-
-.navbar_logo img {
-    border-radius: 50%;
-}
-
-.navbar_link {
-    display: flex;
-    padding-right: 10px;
-}
-
-.navbar_link ul {
-    display: flex;
+.navbar_link-list {
     padding-left: 0px;
     list-style: none;
     gap: 20px;
 }
 
-.navbar_link ul li a {
-    text-decoration: none;
-    color: white;
-}
 
+/*========= JUMBOTRON  ==========*/
 
-/*========= PHOTO  ==========*/
-
-.photo {
-    border-radius: 10px;
+.jumbotron_container {
     margin-top: 100px;
-    background-color: purple;
-    border-radius: 10px;
     height: 400px;
     background-image: url(../assets/img/banner.jpg);
 }
 
 .overlay {
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
     flex-direction: column;
     background-color: black;
     opacity: 0.8;
@@ -114,8 +131,7 @@ hr {
 
 /*========= SECTION ==========*/
 
-.section {
-    display: flex;
+.section_container {
     flex-direction: column;
     width: 100%;
     gap: 20px;
@@ -123,29 +139,20 @@ hr {
 }
 
 .sub_section {
-    border: 3px solid #a72608;
-    border-radius: 10px;
-    display: flex;
     flex-direction: row;
+    border: 3px solid #a72608;
     width: 100%;
-}
-
-.reverse {
-    flex-direction: row-reverse;
 }
 
 .sub_section-img {
     width: auto;
 }
 
-.sub_section-img img {
-    border-radius: 10px;
+.reverse {
+    flex-direction: row-reverse;
 }
 
 .sub_section-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     text-align: justify;
     width: auto;
 }
@@ -160,8 +167,6 @@ hr {
 
 .btn_section {
     padding: 10px;
-    border-radius: 10px;
-    background-color: #a72608;
     color: white;
     margin: 0px 40px;
 }
@@ -169,15 +174,11 @@ hr {
 
 /*========= NEWSLETTER ==========*/
 
-.newsletter {
-    display: flex;
+.newsletter_container {
     color: white;
-    border-radius: 10px;
-    background-color: #a72608;
 }
 
 .newsletter_form {
-    display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -214,14 +215,8 @@ hr {
 
 /*========= FOOTER ==========*/
 
-.footer_section {
-    display: flex;
+.footer_container {
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    background-color: #a72508;
-    text-align: center;
 }
 
 .footer_logo {
@@ -232,27 +227,21 @@ hr {
     width: 33.3%;
 }
 
-.footer_link ul li a {
-    text-decoration: none;
-    color: white;
-}
-
 .footer_social {
     width: 33.3%;
     color: white;
 }
 
-.footer_section ul {
+.footer_container ul {
     padding-left: 0px;
 }
 
-.footer_section ul li {
+.footer_container ul li {
     list-style-type: none;
 }
 
 .social_link {
     justify-content: space-evenly;
-    display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
@@ -262,5 +251,4 @@ hr {
     border-radius: 10px;
     text-align: center;
     width: 100%;
-    background-color: #a72608;
 }
