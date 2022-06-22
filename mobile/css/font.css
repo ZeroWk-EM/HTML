@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Monseract Light";
+    src: url(../assets/font/montserratL.woff);
+}
+
+@font-face {
+    font-family: "Monseract Regular";
+    src: url(../assets/font/montserratR.woff);
+}
