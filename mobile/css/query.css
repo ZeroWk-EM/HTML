@@ -1,10 +1,10 @@
 /*TABLET*/
 
 @media screen and (min-width: 768px) {
+    body {
+        font-size: 16px;
+    }
     .nav_container {
-        position: fixed;
-        top: 0;
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
@@ -16,9 +16,6 @@
     .jumbo_container {
         margin-top: 140px;
     }
-    body {
-        font-size: 16px;
-    }
 }
 
 
@@ -28,9 +25,7 @@
     body {
         font-size: 15px;
     }
-    .sub_section h2 {
-        order: 0;
-    }
+    /* ========= SECTION CONTAINER CSS =========*/
     .content {
         margin-top: 25px;
         display: flex;
@@ -39,11 +34,13 @@
     .content img {
         width: 150px;
     }
+    /*NASCONDE L'IMMAGINE FUORI DAL DIV CONTENT*/
     #mobile {
         display: none;
     }
+    /*MOSTRA L'IMMAGINE DENTRO IL DIV CONTENT*/
     #desktop {
-        display: inline-block;
+        display: block;
         margin-left: 20px;
     }
     .text h2 {
