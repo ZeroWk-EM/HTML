@@ -1,6 +1,6 @@
 html {
     font-family: "Monseract Regular", arial, sans-serif;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 body {
@@ -70,7 +70,7 @@ li {
 }
 
 .overlay p {
-    padding: 0 15px;
+    padding: 0 15%;
 }
 
 .section_container {
@@ -94,8 +94,17 @@ li {
     padding: 0 20px;
 }
 
+.text {
+    margin: 0px 20px;
+}
+
+#desktop {
+    display: none;
+}
+
 .btn_section {
     margin: 35px;
+    z-index: 1;
 }
 
 .btn {
@@ -178,5 +187,40 @@ input[type="submit"] {
 }
 
 ::placeholder {
+    color: white;
+}
+
+.footer_section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fca311;
+}
+
+.upper-footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-social ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.under-footer hr {
+    width: 80%;
+}
+
+.under-footer p {
+    font-weight: bold;
+    text-align: center;
     color: white;
 }
