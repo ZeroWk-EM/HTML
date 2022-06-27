@@ -1,14 +1,20 @@
 /* ========= GLOBAL CSS =========*/
 
+@media screen and (min-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+}
+
 html {
     font-family: "Monseract Regular", arial, sans-serif;
-    font-size: 20px;
 }
 
 body {
     background-color: #14213d;
     margin: 0;
     padding: 0;
+    font-size: 15px;
 }
 
 ul {
@@ -209,7 +215,7 @@ a {
 
 /* ========= FOOTER CSS =========*/
 
-.footer_section {
+.footer_container {
     flex-direction: column;
     gap: 10px;
 }
