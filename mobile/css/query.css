@@ -57,3 +57,9 @@
         margin: 0px 20px;
     }
 }
+
+@media screen and (min-width: 576px) {
+    body {
+        font-size: 14px;
+    }
+}
