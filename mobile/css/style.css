@@ -1,11 +1,5 @@
 /* ========= GLOBAL CSS =========*/
 
-@media screen and (min-width: 576px) {
-    body {
-        font-size: 14px;
-    }
-}
-
 html {
     font-family: "Monseract Regular", arial, sans-serif;
 }
