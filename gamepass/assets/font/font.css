@@ -1,0 +1,19 @@
+@font-face {
+    font-family: segoe_normal;
+    src: url(source/segoe-regular.woff);
+}
+
+@font-face {
+    font-family: segoe_semibold;
+    src: url(source/segoe-semibold.woff);
+}
+
+@font-face {
+    font-family: segoe_bold;
+    src: url(source/segoe-bold.woff);
+}
+
+@font-face {
+    font-family: segoe_pro;
+    src: url(source/segoe-pro.woff);
+}
