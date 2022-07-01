@@ -405,7 +405,7 @@ ul {
 
 .game_info h1 {
     margin: 40px 0 0 0;
-    width: 60%;
+    max-width: 60%;
     color: black;
     font-size: 34px;
     font-family: segoe_bold;
@@ -555,4 +555,13 @@ ul {
     font-weight: bold;
     color: #9bf00b;
     margin: 10px 0;
+}
+
+@media screen and (min-width: 1220px) {
+    .primeday-container h1 {
+        width: 65%;
+    }
+    .genre-info h1 {
+        width: 40%;
+    }
 }
