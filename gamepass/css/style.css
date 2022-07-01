@@ -810,12 +810,27 @@ ul {
 }
 
 .plan-wrapper ul li {
+    padding: 10px;
     padding-left: 10px;
     color: white;
     font-size: 20px;
 }
 
-.plan-wrapper ul {
-    list-style-type: "\2713";
-    color: #9bf00b;
+#inc {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.plan-wrapper img {
+    width: 100px;
+}
+
+.include p {
+    font-size: 16px;
+}
+
+#explore_price {
+    background-color: initial;
+    color: white;
+    text-align: center;
 }
