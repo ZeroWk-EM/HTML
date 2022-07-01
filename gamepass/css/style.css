@@ -557,11 +557,137 @@ ul {
     margin: 10px 0;
 }
 
-@media screen and (min-width: 1220px) {
-    .primeday-container h1 {
-        width: 65%;
-    }
-    .genre-info h1 {
-        width: 40%;
-    }
+.stream_container {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 100px;
+    flex-direction: column;
+}
+
+.first-section-stream {
+    display: flex;
+    width: 100%;
+}
+
+.second-section-stream {
+    background-image: url(../assets/desktop/section/cloudgame/console-bg.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.all_device {
+    width: 50%;
+}
+
+.all_device img {
+    width: 100%;
+}
+
+.text_stream {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    flex-direction: column;
+}
+
+.text-stream-wrapper {
+    width: 75%;
+}
+
+.text-stream-wrapper h1 {
+    margin-bottom: 20px;
+    font-family: segoe_bold;
+    font-size: 46px;
+}
+
+.text-stream-wrapper p {
+    font-size: 18px;
+}
+
+.second_section_text-wrapper {
+    margin-top: 80px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.second_section_text-wrapper h1 {
+    font-size: 46px;
+    font-family: segoe_bold;
+}
+
+.second_section_text-wrapper p {
+    font-size: 15px;
+}
+
+.second_section_text-wrapper a {
+    color: #107c10;
+    font-family: segoe_pro;
+}
+
+.feature_container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.main-text_feature {
+    margin: 0 auto;
+    width: 60%;
+}
+
+.main-text_feature h1 {
+    font-size: 46px;
+    text-align: center;
+    font-family: segoe_bold;
+    margin-bottom: 30px;
+}
+
+.feature_slider {
+    display: flex;
+    overflow-x: scroll;
+    gap: 30px;
+}
+
+.section_feature img {
+    width: 40vw;
+}
+
+.section_feature h1 {
+    padding-top: 30px;
+    font-size: 34px;
+    font-family: segoe_bold;
+}
+
+.section_feature p {
+    font-size: 20px;
+}
+
+.section_feature {
+    background-color: #e6e6e6;
+}
+
+.wrapper-feature {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.wrapper-feature a {
+    margin-top: 20px;
+    font-family: segoe_pro;
+    font-weight: bold;
+    color: #054b16;
+}
+
+.feature_slider::-webkit-scrollbar {
+    display: none;
 }
