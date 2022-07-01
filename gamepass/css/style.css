@@ -662,6 +662,7 @@ ul {
 
 .section_feature h1 {
     padding-top: 30px;
+    margin-bottom: 10px;
     font-size: 34px;
     font-family: segoe_bold;
 }
