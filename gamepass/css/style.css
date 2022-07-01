@@ -437,7 +437,7 @@ ul {
 .ea-collaboration_container {
     display: flex;
     margin: 0 auto;
-    margin-top: 120px;
+    margin-top: 170px;
     width: 90%;
     height: 500px;
     background-image: url(../assets/desktop/section/eaplay/the_sims-bg.jpeg);
@@ -476,4 +476,83 @@ ul {
     color: #054b16;
     font-weight: bold;
     font-family: segoe_pro;
+}
+
+.genre_container {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.genre-info {
+    width: 90%;
+    margin: 0 auto;
+    background-color: #333333;
+    text-align: center;
+}
+
+.genre-info h1 {
+    width: 50%;
+    margin: 0 auto;
+    font-size: 78px;
+    color: white;
+    font-family: segoe_pro;
+    text-align: center;
+}
+
+.genre-wrapper {
+    display: flex;
+    margin-top: -75px;
+}
+
+.genre_description {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.genre_description img {
+    width: 100%;
+    height: auto;
+}
+
+.genre-info_text {
+    position: relative;
+}
+
+.info-genre {
+    position: absolute;
+    color: white;
+    text-align: center;
+}
+
+.info-genre p {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+.info-genre img {
+    width: 50px;
+}
+
+.genre_info2 {
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    background-color: #333333;
+    text-align: center;
+}
+
+.genre_info2 p {
+    width: 50%;
+    margin: 0 auto;
+    padding: 30px 0 20px 0;
+    font-size: 18px;
+    color: white;
+}
+
+.genre_info2 a {
+    font-family: segoe_pro;
+    font-weight: bold;
+    color: #9bf00b;
+    margin: 10px 0;
 }
