@@ -772,15 +772,6 @@ ul {
     text-align: center;
 }
 
-.all_section {
-    width: 90%;
-    margin: 0 auto;
-    background-image: url(../assets/common/all_access-bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 100vh;
-}
-
 #sup-size {
     font-size: 10px;
 }
@@ -833,4 +824,28 @@ ul {
     background-color: initial;
     color: white;
     text-align: center;
+}
+
+.all_section {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+    background-image: url(../assets/common/all-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box-all img {
+    width: 50px;
+}
+
+.func-all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
